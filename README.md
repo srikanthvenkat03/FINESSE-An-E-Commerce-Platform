@@ -42,19 +42,22 @@ git clone https://github.com/your-username/finesse-frontend.git
 cd finesse-frontend
 ```
 ### 2. Install dependencies
-bash
+```bash
 Copy
 Edit
 npm install
+```
 ### 3. Run the frontend
-bash
+```bash
 Copy
 Edit
 npm start
+```
 ### 4. Run the backend (in a separate terminal)
-bash
+```bash
 Copy
 Edit
 node server.js
+```
 ## 📬 Contact
 For feedback or collaboration, reach out via GitHub or open an issue.
