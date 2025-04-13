@@ -43,20 +43,14 @@ cd finesse-frontend
 ```
 ### 2. Install dependencies
 ```bash
-Copy
-Edit
 npm install
 ```
 ### 3. Run the frontend
 ```bash
-Copy
-Edit
 npm start
 ```
 ### 4. Run the backend (in a separate terminal)
 ```bash
-Copy
-Edit
 node server.js
 ```
 ## 📬 Contact
