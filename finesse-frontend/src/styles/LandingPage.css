@@ -307,7 +307,7 @@
 }
 
 .oversized-title {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   margin: 0.5rem 0;
 }
 
@@ -366,14 +366,15 @@
 .testimonial {
   max-width: 300px;
   font-style: italic;
-  font-size: 0.95rem;
+  font-size: 1rem;
 }
 
 .testimonial cite {
   display: block;
-  margin-top: 1rem;
+  margin-top: 1.3rem;
   font-weight: bold;
   color: #ccc;
+  font-size: 1.1rem;
 }
 
 /* Responsive */
