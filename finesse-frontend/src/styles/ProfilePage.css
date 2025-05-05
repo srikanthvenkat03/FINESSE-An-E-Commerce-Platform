@@ -1,0 +1,35 @@
+.profile-page {
+  background-color: black;
+  color: white;
+  min-height: 100vh;
+  padding: 2rem;
+  text-align: center;
+}
+
+.upload-section input {
+  padding: 1rem;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.pic-preview img {
+  max-width: 200px;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.pic-preview button {
+  padding: 0.5rem 1rem;
+  background-color: #e50914;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.msg {
+  margin-top: 1rem;
+  color: lightgreen;
+}

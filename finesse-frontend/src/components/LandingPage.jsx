@@ -58,13 +58,9 @@ const LandingPage = () => {
     return () => clearInterval(interval);
   }, [handleNext]);
 
-  // Navigation handlers (placeholder routes)
   const goToCart = () => navigate('/cart');
   const goToCategories = () => navigate('/categories');
-  const goToJoinUs = () => navigate('/join');
-  const goToFAQ = () => navigate('/faq');
   const goToProfile = () => navigate('/profile');
-  const goToCategoryPage = (category) => navigate(`/categories/${category}`);
   const goToProductPage = (id) => navigate(`/product/${id}`);
 
   return (
@@ -78,9 +74,7 @@ const LandingPage = () => {
         </div>
         <div className="nav-right">
           <button className="nav-btn" onClick={goToCart}>Cart</button>
-          <button className="nav-btn" onClick={goToJoinUs}>Join Us</button>
-          <button className="nav-btn" onClick={goToFAQ}>FAQ</button>
-          <button className="nav-btn profile-btn" onClick={goToProfile}>
+          <button className="nav-btn profile-btn">
             <img src="/assets/icon.png" alt="Profile" className="profile-icon" />
           </button>
         </div>
@@ -99,7 +93,7 @@ const LandingPage = () => {
       <h2 className="section-title">Top Categories</h2>
       <div className="categories-section">
         {categories.map((cat, i) => (
-          <div key={i} className="category-item" onClick={() => goToCategoryPage(cat.name)}>
+          <div key={i} className="category-item">
             <img src={cat.imageUrl} alt={cat.name} className="category-image" />
             <p className="category-title">{cat.name}</p>
           </div>
